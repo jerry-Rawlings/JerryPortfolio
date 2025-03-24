@@ -1,0 +1,164 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color:rgb(148, 148, 197);
+    color: white;
+    margin: 0;
+}
+header{
+    background-color:white;
+    color: black;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+img{
+    width: 100px;
+}
+ul li {
+    list-style: none;
+    text-decoration: none;
+    display: inline;
+   
+   
+a{
+    text-decoration: none;
+   font-family: Georgia, 'Times New Roman', Times, serif ;
+   font-weight: bolder;
+   color: white;  
+   background-color:rgb(148, 148, 197);
+   margin: 0 20px;  
+   padding: 8px;
+   
+   border-radius: 8px;
+}
+}
+button{
+    background-color: rgb(148, 148, 197);
+    color: white;
+    padding: 8px;
+    border-radius: 8px;
+    border: hidden;
+    margin-right: 10px;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+a:hover{
+    background-color: black;
+    color: white;
+    padding: 8px;
+    border-radius: 8px;
+    border: hidden;
+    
+}
+#profilePic{
+    width: 400px;
+    background-color: aqua;
+    border-radius: 100%;
+}
+p{
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+    margin: 20px;
+   
+}
+span{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aqua;
+    font-size: xx-large;
+}
+   
+.aboutInfo{
+    padding: 10%;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+#profilePic{
+    margin: 20px;
+}
+footer{
+    background-color:white;
+    color: rgb(148, 148, 197) ;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+}
+img{
+    background-color:aqua ; 
+    border-radius: 50%;
+    margin: 0 20px;
+width: 80px;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        background-color: red; /* Adjust background color for smaller screens */
+        font-size: 14px; /* Reduce font size for better readability */
+    }
+    nav {
+       /* flex-direction: column;*/
+        align-items: center;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+    }
+    ul {
+        padding: 0;
+    }
+    ul li a{
+       margin: 10px ;
+background-color: white;
+color: black;
+    }
+    ul li a:hover{
+        background-color: rgb(148, 148, 197) ;
+        color: white;
+    }
+    button {
+        margin-top: 10px;
+        background-color: white;
+        color: black;
+        font-weight: bolder;
+    }
+    button:hover{
+        background-color: rgb(148, 148, 197) ;
+
+        color:white;
+    }
+    header{
+        background-color: black;
+    }
+footer{
+    background-color: black;
+    color: white;
+}
+   
+.aboutInfo{
+    padding: 10%;
+}
+p{
+    margin: 20px; 
+    
+}
+#profilePic{
+    margin: 70px 70px 70px 0;
+}
+img{
+    background-color: white;
+    border-radius: 50%;
+}
+}
+
+
+
+

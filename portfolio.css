@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(360deg,rgb(148, 148, 197), aqua);
+margin:0;
+padding:0;
+display: flex;
+flex-direction: column;
+height: 100vh;
+}
+header{
+    border: 2px solid hidden;
+    
+    background: linear-gradient(45deg,rgb(16, 78, 16),rgb(39, 122, 122));
+}
+h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.top{
+    width: 95%;
+    height: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+   /* background-color: white;*/
+    gap: 10px;
+    
+}
+.card{
+    background-color: greenyellow;
+    padding: 30px;
+    flex: 1;
+    border-radius: .5em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    text-align: center;
+    font-size: x-large;
+    color: green;
+    font-weight: bolder;
+    margin-bottom: 15px;
+}
+main{
+    background: linear-gradient(270deg,rgb(31, 78, 78),rgb(189, 214, 140));
+    border: 2px solid hidden;
+}
+.middle{
+    width: 95%;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+   /* background-color: white;*/
+    gap: 10px;
+}
+.middlecard{
+    background-color: green;
+    padding: 30px;
+    flex: 1;
+    border-radius: .5em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    text-align: center;
+    font-size: x-large;
+    color: yellowgreen;
+    font-weight: bolder;
+    margin-bottom: 15px;
+}
+footer{
+    background: linear-gradient(270deg,rgb(176, 17, 216),rgb(50, 81, 95));
+    border: 2px solid hidden;
+}
+.down{
+    width: 95%;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+   /* background-color: white;*/
+    gap: 10px;
+}
+.downcard{
+    background-color: rgb(0, 113, 128);
+    padding: 30px;
+    flex: 1;
+    border-radius: .5em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    text-align: center;
+    font-size: x-large;
+    color: rgb(205, 190, 50);
+    font-weight: bolder;
+    margin-bottom: 15px;
+}
+header,main,footer{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
